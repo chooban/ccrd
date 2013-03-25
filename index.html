@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<link rel="stylesheet" href="css/blueprint/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="css/blueprint/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]>
+  		<link rel="stylesheet" href="css/blueprint/ie.css" type="text/css" media="screen, projection">
+	<![endif]-->
+	<link rel="stylesheet" type="text/css" href="http://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css" />	
+	<link rel="stylesheet" type="text/css" href="css/ccrd.css"/>	
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
+	<title>Capital City Roller Derby</title>
+	
+	<script>
+	$(function() {
+		$( "#tabs" ).tabs();
+	});
+
+	$(function() {
+    $( '#dialog-modal' ).dialog( {
+      minHeight: 560,
+      minWidth: 440,
+      show: {
+        effect: "fade",
+      },
+      modal: true,
+    });
+	});
+
+	</script>
+</head>
+<body>
+
+	<div class="container">
+		<div id="banner_container" class="span24 last">
+      <img src="images/banner.jpg" width="851" height="315" />
+		</div>
+		
+		<div id="maincontent" class="span24">
+			<div id="tabs">
+				<ul>
+					<li><a href="#tabs-1">About Us</a></li>
+					<li><a href="#tabs-2">Training</a></li>
+				</ul>
+				<div id="tabs-1">
+					<p><strong>What do we do?</strong></p>
+          <p>We do derby!</p>
+				</div>
+				<div id="tabs-2">
+					<p><strong>When and where?</strong></p>
+			    
+          <p>At the <a href="http://cragssports.com/">Crags Community Sports Centre</a> on a Sunday night between 7 and 9.</p>
+        </div>
+			</div>
+		</div>		
+
+		<div id="footer" class="span24 last">
+		
+		</div>		
+	</div>
+
+  <div id="dialog-modal" title="Fresh Meat!">
+    <a href="images/capitalcity.graphics.freshmeat.flyer.blue.png"><img src="images/capitalcity.graphics.freshmeat.flyer.blue.small.png" /></a>
+  </div>
+
+</body>
+</html>

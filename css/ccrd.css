@@ -1,0 +1,9 @@
+#banner_container {
+  width: 100%;
+  text-align:center;
+}
+
+#banner_container img {
+  margin-left: auto;
+  margin-right: auto;
+}
